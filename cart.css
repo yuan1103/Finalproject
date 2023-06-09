@@ -1,0 +1,116 @@
+* {
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+header {
+    background-color: antiquewhite;
+}
+
+nav {
+    display: flex;
+    font-size: 20px;
+    text-align: center;
+    background-color: lightgray;
+    opacity: 0.8;
+}
+
+nav a {
+    color: black;
+    padding: 20px 20px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: #9c917e;
+    color: white;
+}
+
+article {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+
+section {
+    display: block;
+}
+
+.block {
+    display: grid;
+    padding: 20px 0px 100px 0px;
+}
+
+.picture {
+    /*position: relative;
+    right: -120px;*/
+    margin: 10px 0px 10px 0px;
+    display: flex;
+    padding-left: 20px;
+}
+
+.word {
+    text-align: center;
+}
+
+.quantity {
+    display: flex;
+    margin-left: 120px;
+    width: 250px;
+    height: 25px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.left {
+    width: 500px;
+    margin-right: 40px;
+    margin-top: 5px;
+    padding: 20px;
+}
+
+.right {
+    padding: 25px;
+    width: 400px;
+    height: 600px;
+    margin-left: 10px;
+}
+
+.cartbotton {
+    color: #000;
+    background-color: aliceblue;
+}
+
+form {
+    border: 25px;
+}
+
+.inf1 {
+    border: 25px;
+    text-align: left;
+    font-size: larger;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.inf {
+    position: absolute;
+    top: 15px;
+    right: 130px;
+}
+
+.account {
+    position: absolute;
+    top: 15px;
+    right: 50px;
+}
+
+footer {
+    display: flex;
+    background-color: #D4C7B1;
+    text-align: center;
+    color: #313348;
+    font-family: 'Noto Sans TC', sans-serif !important;
+}
+
+

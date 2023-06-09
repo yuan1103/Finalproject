@@ -1,0 +1,123 @@
+* {
+    margin: 0 auto;
+    box-sizing: border-box
+}
+
+body {
+    user-select: none;
+    background-color: white;
+}
+
+header {
+    background-color: antiquewhite;
+}
+
+nav {
+    display: flex;
+    font-size: 20px;
+    text-align: center;
+    background-color: lightgray;
+    opacity: 0.8;
+}
+
+nav a {
+    color: black;
+    padding: 20px 20px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: #9c917e;
+    color: white;
+}
+
+.inf {
+    position: absolute;
+    top: 15px;
+    right: 130px;
+}
+
+.account {
+    position: absolute;
+    top: 15px;
+    right: 50px;
+}
+
+footer {
+    display: flex;
+    background-color: #D4C7B1;
+    text-align: center;
+    color: #313348;
+    font-family: 'Noto Sans TC', sans-serif !important;
+    align-items: center;
+    justify-content: center;
+}
+
+.amont {
+    display: grid;
+    grid-column: 2;
+    text-align: center;
+}
+  
+
+
+
+article {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-flow: row dense;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+.product-discussion {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    position: relative;
+    top: 50px;
+
+}
+
+.comment {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.user {
+    font-weight: bold;
+}
+
+.rating {
+    color: orange;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+.message {
+    margin-top: 5px;
+}
+
+.user-input,
+.message-input {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 5px 10px;
+    background-color: #ccc;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    width: 250px;
+}
+
+p {
+    text-align: justify;
+}

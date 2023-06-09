@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="good7.css">
+</head>
+<body>
+    <header>
+        <h1 style="font-size:75px; text-align: center;">狠殼以</h1>
+        <div class="inf">
+            <a href="cart.html">
+                <img src="image/shop.png" style="width: 70px; height: 70px;" >
+            </a>
+        </div>
+        <div class="account">
+            <a href="user.html">
+                <img src="image/account.png" style="width: 70px; height: 70px;">
+            </a>
+        </div>
+    </header>
+    <nav>
+        <a href="index.html">首頁</a>&emsp;
+        <a href="iphone.html">IPHONE</a>&emsp;
+        <a href="ipad.html">IPAD</a>&emsp;
+        <a href="samsung.html">SAMSUNG</a>
+
+    </nav>
+    <article>
+    <div class="buy">
+        <img class= "product" src="image/samsung/samsung1.webp">
+    </div>
+    <div class="amont">
+        <div class="productname"><h2>Flight空中旅程客製載具防摔透明SAMSUNG手機殼<br>NT$990</h2></div><br>
+        <div class="buttom">
+            <input type="button" id="down" value="-">
+            <input type="text" id="num" value="0">
+            <input type="button" id="up" value="+"><br><br>
+            <input type="button"  value="購買">
+        </div><br>
+        
+        <div class="dog">
+        <p> ⦿鏡頭全包覆設計<br>
+            ⦿獨立式省力撞色按鍵<br>
+            ⦿簡約全包設計，完美防塵<br>
+            ⦿TPU邊框，拆裝容易不傷機<br>
+            ⦿霧面磨砂設計，防指紋、防髒污<br>
+            ⦿極優減震矽膠材質 力量分散 保護手機<br>
+            ⦿防摔耐磨 / 鏡頭墊高保護 /  精準相機孔位
+        </p>
+        </div>
+    </div>        
+        
+    <div class="product-discussion">
+        <h2>商品評論</h2>
+      
+        <div class="comment">
+          <div class="user">猴友移</div>
+          <div class="rating">4.5 stars</div>
+          <div class="message">這個商品真的很棒！我非常滿意。</div>
+        </div>
+      
+        <div class="comment">
+          <div class="user">蔡中文</div>
+          <div class="rating">3 stars</div>
+          <div class="message">不會掉色，很棒。</div>
+        </div>
+      
+        <div class="comment">
+          <div class="user">敗燈</div>
+          <div class="rating">5 stars</div>
+          <div class="message">This case is greatttt.</div>
+        </div>
+
+        <form class="comment-form">
+            <input type="text" class="user-input" placeholder="輸入使用者名稱">
+            <textarea class="message-input" placeholder="留言內容"></textarea>
+            <button type="submit">發表留言</button>
+          </form>
+      
+        <!-- 在此加入更多評論 -->
+      </div>
+</article>
+     <script>
+ 
+        var downButton = document.getElementById("down");
+        var upButton = document.getElementById("up");
+        var numInput = document.getElementById("num");
+
+        var quantity = 0;
+
+        downButton.addEventListener("click", function() {
+            if (quantity > 0) {
+                quantity--;
+                numInput.value = quantity;
+            }
+        });
+
+        upButton.addEventListener("click", function() {
+            quantity++;
+            numInput.value = quantity;
+        });
+    </script>
+     <footer class="footer">
+        <p>CONTACT US<br>
+        EMAIL:hankz9502@gmail.com<br>
+        ADDRESS: 桃園市中壢區中北路200號</p>
+    </footer>
+</body>
+</html>
